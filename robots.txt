@@ -1,8 +1,6 @@
-Sitemap: http://www.banyanfilm.com/sitemap.xml
+# Robots.txt file from http://www.jolinfilm.com
 
-User-agent: NerdyBot
-Disallow: /
+Sitemap: http://www.jolinfilm.com/sitemap.xml
 
 User-agent: *
-Disallow: /ajax/
-Disallow: /apps/
+Disallow:

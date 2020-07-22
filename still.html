@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+<head> 
+ <meta name="keywords" content="" /> 
+ <meta name="description" content="" /> 
+ <meta http-equiv="content-type" content="text/html;charset=utf-8" /> 
+ <title>Still</title> 
+ <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" /> 
+ <link rel="stylesheet" type="text/css" href="http://assets.neo.registeredsite.com/libs/libs.css?ct=1551239886918" /> 
+ <link rel="stylesheet" type="text/css" href="http://assets.neo.registeredsite.com/plugins/neo.css?ct=1551239886918" /> 
+ <script type="text/javascript">
+  var builderSettings = {
+    appRoot: '//app.neo.registeredsite.com/neo/',
+    appRelativePath: '/neo',
+    assetsRoot: '//assets.neo.registeredsite.com',
+    repositoryRoot: '//repository.neo.registeredsite.com',
+    spRoot: '//repository.neo.registeredsite.com/starting-points',
+    usersRoot: '//users.neo.registeredsite.com',
+    sitesearchUrl: '//sitesearch.services.matrixbuilder.com/sitesearch/search',
+    siteDomain: 'jolinfilm.com',
+    isBuilder : false,
+    isPreview : false
+  };
+</script> 
+ <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat" /> 
+</head><body class="neo-publish">
+ <!-- New builder template -->
+ <div id="includes" style="display: none">
+  <script type="text/javascript" src="http://assets.neo.registeredsite.com/libs/libs.js?ct=1551239886918"></script>
+  <script type="text/javascript" src="http://assets.neo.registeredsite.com/libs/tinymce/4.1.7/tinymce.min.js?ct=1551239886918"></script>
+  <div class="sitesearch-plugin-inner"> 
+   <div class="sitesearch-ng" data-ng-controller="neo.SiteSearchPlugin.ngPluginController"> 
+    <div class="ss-container ss-style-1 sitesearch-id-1" style="width:100%"> 
+     <form> 
+      <span class="ss-loading" style="display: none;"></span> 
+      <input class="ss-text" type="text" value="" placeholder="Search ..." /> 
+      <input class="ss-submit" type="submit" value="" /> 
+     </form> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="neo-sitesearch-result-modal" class="modal-wrapper modal-effect"> 
+   <div class="modal-window"> 
+    <div class="modal-top">
+     Search Results
+    </div> 
+    <div class="modal-bottom"></div> 
+    <div class="modal-x" data-ng-click="closeSearchResult()"></div> 
+   </div> 
+  </div> 
+  <script type="text/webcom-template" id="form-plugin-inner">
+    <div class="form-ng remove-on-save">
+      <div id="{{FormId}}">inject webcom-form here</div>
+    </div>
+</script> 
+  <div class="text-plugin-inner"> 
+   <div class="text-ng tiny text-plugin"></div> 
+  </div>
+  <div class="map-plugin-inner"> 
+   <div class="map-ng remove-on-save"> 
+    <div class="mapPlugin"> 
+     <div class="neo-map-address-show"></div> 
+     <div class="neo-mapquest"></div> 
+     <div class="neo-map-direction"></div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="share-plugin-inner"> 
+   <div class="fb-share-button-placeholder" data-type="button"></div> 
+  </div> 
+  <div class="google-share-plugin-inner"> 
+   <div class="gplus-data" data-action="share"> 
+    <div class="g-plus" data-action="share"></div> 
+   </div> 
+  </div> 
+  <div class="google-plusone-plugin-inner"> 
+   <div class="gplusone-data"> 
+    <div class="g-plusone"></div> 
+   </div> 
+  </div> 
+  <div class="tap-plugin-inner"> 
+   <div class="product-data"> 
+    <!-- The product element will be here --> 
+   </div> 
+  </div> 
+  <script type="text/javascript" src="http://assets.neo.registeredsite.com/plugins/neo.js?ct=1551239886918"></script>
+ </div>
+ <!--End Includes-->
+ <div id="canvas" data-ng-app="webcomApp" class="default-theme blank-sp ui-selectable" style="height: 100px; min-height: 1791px; background-color: rgb(0, 0, 0);"> 
+  <div id="top-area" style="height: 0px; width: 960px;" class=""> 
+  </div> 
+  <div id="page-wrapper"> 
+   <div class="global-region top" id="header" style="display: block;"> 
+    <div class="global-region-inner" style="margin: 0px auto; position: relative; width: 962px; height: 163px;" data-background-custom-colors="[]" data-background-indexes="{&quot;global&quot;:{&quot;header&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}},&quot;footer&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}},&quot;local&quot;:[{&quot;pageId&quot;:5332684,&quot;page&quot;:{&quot;color&quot;:{&quot;index&quot;:38}},&quot;body&quot;:{&quot;color&quot;:{&quot;index&quot;:-1}}}]}"> 
+     <div class="neo-asset navigation-2-plugin" id="asset-1456899147411" style="height: 52.96px; position: absolute; left: 124.406px; width: 586px; top: 109px;" data-module-class="neo.Navigation2Module" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:null,&quot;borderLeftColor&quot;:null,&quot;borderBottomColor&quot;:null,&quot;borderRightColor&quot;:null,&quot;borderAllColor&quot;:&quot;#333333&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;NaNpx NaNpx 0 0 undefined&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100}"> 
+      <style id="custom-style-for-asset-1456899147411">/****************/
+                              /* neo main nav */
+                              /****************/
+                              #asset-1456899147411.main-nav-fixed-plugin .neo-asset-inner > ul > li {
+                                width: 130px;
+                              }
+                              #asset-1456899147411 .neo-asset-inner > ul > li {
+                                padding-top: 5px;
+                                padding-right: 10px;
+                                padding-bottom: 5px;
+                                padding-left: 10px;
+                                margin-right: 0;
+                                margin-bottom: 0;
+                                background-color: rgba(0, 0, 0, 0);
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 24px;
+                                font-family: Montserrat;
+                                text-align: left;
+
+                                border-left-color: rgb(51, 51, 51);
+                                border-left-style: none;
+                                border-left-width: 0;
+                                border-right-color: rgb(51, 51, 51);
+                                border-right-style: none;
+                                border-right-width: 0;
+                                border-bottom-color: rgb(51, 51, 51);
+                                border-bottom-style: none;
+                                border-bottom-width: 0;
+                                border-top-color: rgb(51, 51, 51);
+                                border-top-style: none;
+                                border-top-width: 0;
+                                border-top-left-radius:0;
+                                border-top-right-radius:0;
+                                border-bottom-left-radius:0;
+                                border-bottom-right-radius:0;
+
+                                -moz-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                                -webkit-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                                box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                              }
+                              #asset-1456899147411 .neo-asset-inner > ul > li > a {
+                                color: rgb(255, 255, 255);
+                              }
+                              #asset-1456899147411 .neo-asset-inner > ul > li.k-state-hover {
+                                padding-top: 5px;
+                                padding-right: 10px;
+                                padding-bottom: 5px;
+                                padding-left: 10px;
+                                background-color: rgba(0, 0, 0, 0);
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 24px;
+                                font-family: Montserrat;
+                                text-align: left;
+
+                                border-left-color: rgb(46, 179, 166);
+                                border-left-style: none;
+                                border-left-width: 0;
+                                border-right-color: rgb(46, 179, 166);
+                                border-right-style: none;
+                                border-right-width: 0;
+                                border-bottom-color: rgb(46, 179, 166);
+                                border-bottom-style: none;
+                                border-bottom-width: 0;
+                                border-top-color: rgb(46, 179, 166);
+                                border-top-style: none;
+                                border-top-width: 0;
+                                border-top-left-radius:0;
+                                border-top-right-radius:0;
+                                border-bottom-left-radius:0;
+                                border-bottom-right-radius:0;
+
+                                -moz-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                                -webkit-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                                box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                              }
+                              #asset-1456899147411 .neo-asset-inner > ul > li.k-state-hover > a {
+                                color: rgb(31, 130, 130);
+                              }
+                              #asset-1456899147411 .neo-asset-inner > ul > li.k-state-active {
+                                padding-top: 5px;
+                                padding-right: 10px;
+                                padding-bottom: 5px;
+                                padding-left: 10px;
+                                background-color: rgba(0, 0, 0, 0);
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 24px;
+                                font-family: Montserrat;
+                                text-align: left;
+
+                                border-left-color: rgb(16, 196, 178);
+                                border-left-style: none;
+                                border-left-width: 0;
+                                border-right-color: rgb(16, 196, 178);
+                                border-right-style: none;
+                                border-right-width: 0;
+                                border-bottom-color: rgb(16, 196, 178);
+                                border-bottom-style: none;
+                                border-bottom-width: 0;
+                                border-top-color: rgb(16, 196, 178);
+                                border-top-style: none;
+                                border-top-width: 0;
+                                border-top-left-radius:0;
+                                border-top-right-radius:0;
+                                border-bottom-left-radius:0;
+                                border-bottom-right-radius:0;
+
+                                -moz-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                                -webkit-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                                box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                              }
+                              #asset-1456899147411 .neo-asset-inner > ul > li.k-state-active > a {
+                                color: rgb(22, 111, 130);
+                              }
+                              /***************/
+                              /* neo sub nav */
+                              /***************/
+                              #asset-1456899147411.sub-nav-fixed-plugin ul ul > li {
+                                width: 130px;
+                              }
+                              #asset-1456899147411 ul ul > li {
+                                padding-top: 5px;
+                                padding-right: 10px;
+                                padding-bottom: 5px;
+                                padding-left: 10px;
+                                margin-bottom: 0;
+                                background-color: rgba(0, 0, 0, 0);
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 24px;
+                                font-family: Montserrat;
+                                text-align: left;
+
+                                border-left-color: rgb(51, 51, 51);
+                                border-left-style: none;
+                                border-left-width: 0;
+                                border-right-color: rgb(51, 51, 51);
+                                border-right-style: none;
+                                border-right-width: 0;
+                                border-bottom-color: rgb(51, 51, 51);
+                                border-bottom-style: none;
+                                border-bottom-width: 0;
+                                border-top-color: rgb(51, 51, 51);
+                                border-top-style: none;
+                                border-top-width: 0;
+                                border-top-left-radius:0;
+                                border-top-right-radius:0;
+                                border-bottom-left-radius:0;
+                                border-bottom-right-radius:0;
+
+                                -moz-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                                -webkit-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                                box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                              }
+                              #asset-1456899147411 ul ul > li > a {
+                                color: rgb(255, 255, 255);
+                              }
+                              #asset-1456899147411 ul ul > li.k-state-hover {
+                                padding-top: 5px;
+                                padding-right: 10px;
+                                padding-bottom: 5px;
+                                padding-left: 10px;
+                                background-color: rgba(0, 0, 0, 0);
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 24px;
+                                font-family: Montserrat;
+                                text-align: left;
+
+                                border-left-color: rgb(46, 179, 166);
+                                border-left-style: none;
+                                border-left-width: 0;
+                                border-right-color: rgb(46, 179, 166);
+                                border-right-style: none;
+                                border-right-width: 0;
+                                border-bottom-color: rgb(46, 179, 166);
+                                border-bottom-style: none;
+                                border-bottom-width: 0;
+                                border-top-color: rgb(46, 179, 166);
+                                border-top-style: none;
+                                border-top-width: 0;
+                                border-top-left-radius:0;
+                                border-top-right-radius:0;
+                                border-bottom-left-radius:0;
+                                border-bottom-right-radius:0;
+
+                                -moz-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                                -webkit-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                                box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                              }
+                              #asset-1456899147411 ul ul > li.k-state-hover > a {
+                                color: rgb(31, 130, 130);
+                              }
+                              #asset-1456899147411 ul ul > li.k-state-active {
+                                padding-top: 5px;
+                                padding-right: 10px;
+                                padding-bottom: 5px;
+                                padding-left: 10px;
+                                background-color: rgba(0, 0, 0, 0);
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 24px;
+                                font-family: Montserrat;
+                                text-align: left;
+
+                                border-left-color: rgb(16, 196, 178);
+                                border-left-style: none;
+                                border-left-width: 0;
+                                border-right-color: rgb(16, 196, 178);
+                                border-right-style: none;
+                                border-right-width: 0;
+                                border-bottom-color: rgb(16, 196, 178);
+                                border-bottom-style: none;
+                                border-bottom-width: 0;
+                                border-top-color: rgb(16, 196, 178);
+                                border-top-style: none;
+                                border-top-width: 0;
+                                border-top-left-radius:0;
+                                border-top-right-radius:0;
+                                border-bottom-left-radius:0;
+                                border-bottom-right-radius:0;
+
+                                -moz-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                                -webkit-box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                                box-shadow: 0 0 0 0 rgb(127, 127, 127),0 0 0 0 rgb(127, 127, 127) inset;
+                              }
+                              #asset-1456899147411 ul ul > li.k-state-active > a {
+                                color: rgb(22, 111, 130);
+                              }
+                          </style> 
+      <div class="neo-asset-inner" style="opacity: 1; border-style: none; border-color: rgb(51, 51, 51); background-image: none; background-color: rgba(255, 255, 255, 0);"> 
+       <ul class="k-widget k-reset k-header k-menu k-menu-horizontal" role="menubar" data-role="menu" data-k-orientation="horizontal" data-kendo-menu="" tabindex="0"> 
+        <li class="k-item k-state-default k-first k-state-active selected-page k-state-highlight" id="page-5332684-1108891048313" role="menuitem"><a class="k-link" href="index.html">Home</a></li> 
+        <li class="k-item k-state-default" id="page-5789496-97441532927" role="menuitem"><a class="k-link" href="about.html">About</a></li> 
+        <li class="k-item k-state-default" id="page-5806978-1125063112592" role="menuitem"><a class="k-link" href="crew.html">Crew</a></li> 
+        <li class="k-item k-state-default" id="page-5807709-1227078648704" role="menuitem"><a class="k-link" href="still.html">Still</a></li> 
+        <li class="k-item k-state-default" id="page-5807485-543086577122" role="menuitem"><a class="k-link" href="press.html">Press</a></li> 
+        <li class="k-item k-state-default k-last" id="page-5807907-311967590687" role="menuitem"><a class="k-link" href="contact.html">Contact</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="neo-asset social-plugin" id="asset-1456903348047" style="left: 781.188px; width: 42.18px; height: 41.18px; position: absolute; top: 105.297px; z-index: 387;" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:null,&quot;borderLeftColor&quot;:null,&quot;borderBottomColor&quot;:null,&quot;borderRightColor&quot;:null,&quot;borderAllColor&quot;:&quot;#333333&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" data-module-class="neo.SocialModule" data-plugin-settings="https://www.twitter.com/jolinfilm" data-plugin-info="{&quot;type&quot;:&quot;twitter&quot;,&quot;version&quot;:&quot;1.0&quot;}"> 
+      <div class="neo-asset-inner" style="border-color: rgb(51, 51, 51); opacity: 1; box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.498039); background-image: none; background-color: rgba(255, 255, 255, 0);"> 
+       <a class="img-url" href="https://www.twitter.com/jolinfilm" target="_blank"><img width="37" height="36" class="link-icon" style="width: 37.18px; height: 36.18px;" alt="Find us on Twitter" src="http://assets.neo.registeredsite.com/plugins/social/link/view/images/neo-soc-icon-w-64-twitter.png" /></a> 
+      </div> 
+     </div> 
+     <div class="neo-asset social-plugin" id="asset-1456903079328" style="left: 738.417px; width: 38.85px; height: 41.02px; position: absolute; top: 104.938px; z-index: 386;" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:null,&quot;borderLeftColor&quot;:null,&quot;borderBottomColor&quot;:null,&quot;borderRightColor&quot;:null,&quot;borderAllColor&quot;:&quot;#333333&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:0,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:0,&quot;backgroundShadowOffset&quot;:0}" data-module-class="neo.SocialModule" data-plugin-settings="https://www.facebook.com/sisterjolinfilm" data-plugin-info="{&quot;type&quot;:&quot;facebook&quot;,&quot;version&quot;:&quot;1.0&quot;}"> 
+      <div class="neo-asset-inner" style="opacity: 1; border-style: none; border-color: rgb(51, 51, 51); border-top-left-radius: 0px; box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 0px 0px; background-image: none; background-color: rgba(255, 255, 255, 0);"> 
+       <a class="img-url" href="https://www.facebook.com/sisterjolinfilm" target="_blank"><img width="33" height="36" class="link-icon" style="width: 33.85px; height: 36.02px;" alt="Find us on Facebook" src="http://assets.neo.registeredsite.com/plugins/social/link/view/images/neo-soc-icon-w-64-facebook.png" /></a> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="global-region center" id="content"> 
+    <div class="global-region-inner" id="dupl-2231284136178405" style="margin: 0px auto; position: relative; height: 827px; width: 962px;" aria-disabled="false"> 
+     <div class="neo-asset gallery-plugin" id="asset-1462314211764" style="left: 50px; top: 56px; width: 857.37px; height: 545.92px; position: absolute; z-index: 398;" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;#333333&quot;,&quot;borderLeftColor&quot;:&quot;#333333&quot;,&quot;borderBottomColor&quot;:&quot;#333333&quot;,&quot;borderRightColor&quot;:&quot;#333333&quot;,&quot;borderAllColor&quot;:&quot;#333333&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;,&quot;backgroundRepeat&quot;:&quot;no-repeat&quot;},&quot;bgColor&quot;:&quot;transparent&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0,&quot;backgroundImageUrl&quot;:&quot;&quot;,&quot;backgroundHorizontalPosition&quot;:&quot;left&quot;,&quot;backgroundVerticalPosition&quot;:&quot;top&quot;}" data-module-class="neo.GalleryModule" data-plugin-info="{&quot;linkSourceImages&quot;:true,&quot;imagePan&quot;:false,&quot;showInfo&quot;:true,&quot;showCounter&quot;:true,&quot;thumbEventType&quot;:&quot;click&quot;,&quot;dataSelector&quot;:&quot;img&quot;,&quot;carouselFollow&quot;:true,&quot;imageMargin&quot;:0,&quot;idleTime&quot;:3000,&quot;preload&quot;:2,&quot;clicknext&quot;:false,&quot;thumbQuality&quot;:&quot;auto&quot;,&quot;idleSpeed&quot;:200,&quot;thumbMargin&quot;:0,&quot;useCanvas&quot;:false,&quot;overlayOpacity&quot;:0.85,&quot;height&quot;:0,&quot;fullscreenDoubleTap&quot;:true,&quot;layerFollow&quot;:true,&quot;carouselSteps&quot;:&quot;auto&quot;,&quot;imagePosition&quot;:&quot;50%&quot;,&quot;imageCrop&quot;:false,&quot;autoplay&quot;:false,&quot;swipe&quot;:true,&quot;carouselSpeed&quot;:400,&quot;keepSource&quot;:false,&quot;dataSource&quot;:[{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/13147827_1757418951143339_373294979534259071832.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/13147827_1757418951143339_373294979534259071832.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;13147827_1757418951143339_373294979534259071832.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/10505250_1654124084806160_5527532723941783965_o.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/10505250_1654124084806160_5527532723941783965_o.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;10505250_1654124084806160_5527532723941783965_o.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/LQ0_7130.JPG&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/LQ0_7130.JPG&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;LQ0_7130.JPG&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/145595.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/145595.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;145595.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/01_Siyan___Danni_raw_still_4928_x_5600.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/01_Siyan___Danni_raw_still_4928_x_5600.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;01_Siyan___Danni_raw_still_4928_x_5600.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/image1-2.JPG&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/image1-2.JPG&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;image1-2.JPG&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11850568_1671020863116482_6454683117910936410_o.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11850568_1671020863116482_6454683117910936410_o.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;11850568_1671020863116482_6454683117910936410_o.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/906084_1654137284804840_6251830405955434214_o.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/906084_1654137284804840_6251830405955434214_o.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;906084_1654137284804840_6251830405955434214_o.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/3.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/3.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;3.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11406126_1654137271471508_6325532510904716353_o.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11406126_1654137271471508_6325532510904716353_o.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;11406126_1654137271471508_6325532510904716353_o.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/2.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/2.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;2.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/198335.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/198335.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;198335.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11217732_1654179734800595_19075298746709301003.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11217732_1654179734800595_19075298746709301003.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;11217732_1654179734800595_19075298746709301003.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11411899_1654180158133886_1492187634749267847_o.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11411899_1654180158133886_1492187634749267847_o.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;11411899_1654180158133886_1492187634749267847_o.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11420974_1655573304661238_8664217335045327199_o.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11420974_1655573304661238_8664217335045327199_o.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;11420974_1655573304661238_8664217335045327199_o.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/1039806_1655573307994571_3883042229360975179_o.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/1039806_1655573307994571_3883042229360975179_o.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;1039806_1655573307994571_3883042229360975179_o.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11111792_1655573384661230_3853499121077392898_o.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11111792_1655573384661230_3853499121077392898_o.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;11111792_1655573384661230_3853499121077392898_o.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/1781298_1655573301327905_103651468805931993_o.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/1781298_1655573301327905_103651468805931993_o.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;1781298_1655573301327905_103651468805931993_o.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11220921_1655557697996132_5809793838551752774_n.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11220921_1655557697996132_5809793838551752774_n.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;11220921_1655557697996132_5809793838551752774_n.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/10477324_1654180154800553_1759568469574673000_o.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/10477324_1654180154800553_1759568469574673000_o.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;10477324_1654180154800553_1759568469574673000_o.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11659506_1657089921176243_8771464307153790713_n.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11659506_1657089921176243_8771464307153790713_n.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;11659506_1657089921176243_8771464307153790713_n.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/17722_1657089907842911_6576319198360596730_n.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/17722_1657089907842911_6576319198360596730_n.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;17722_1657089907842911_6576319198360596730_n.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11692590_1657089961176239_1047745319745358900_n.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11692590_1657089961176239_1047745319745358900_n.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;11692590_1657089961176239_1047745319745358900_n.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/1493444_1657087637843138_4348477944988530112_o.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/1493444_1657087637843138_4348477944988530112_o.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;1493444_1657087637843138_4348477944988530112_o.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11666123_1657087594509809_3508499721832055334_n.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11666123_1657087594509809_3508499721832055334_n.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;11666123_1657087594509809_3508499721832055334_n.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11402767_1657087604509808_6866224778111327371_n.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11402767_1657087604509808_6866224778111327371_n.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;11402767_1657087604509808_6866224778111327371_n.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11427258_1654181358133766_1577462222789641652_o.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11427258_1654181358133766_1577462222789641652_o.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;11427258_1654181358133766_1577462222789641652_o.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/10355481_1654181301467105_5169198639363808499_o.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/10355481_1654181301467105_5169198639363808499_o.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;10355481_1654181301467105_5169198639363808499_o.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11402589_1655557731329462_3335982581008547777_o.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11402589_1655557731329462_3335982581008547777_o.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;11402589_1655557731329462_3335982581008547777_o.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/10517221_1654180961467139_2182337768427736919_o.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/10517221_1654180961467139_2182337768427736919_o.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;10517221_1654180961467139_2182337768427736919_o.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11053912_1654180931467142_5088426871583887515_o.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11053912_1654180931467142_5088426871583887515_o.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;11053912_1654180931467142_5088426871583887515_o.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11206514_1654180934800475_8877240624924718256_o.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11206514_1654180934800475_8877240624924718256_o.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;11206514_1654180934800475_8877240624924718256_o.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11406375_1654181398133762_2110924991251103648_o.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11406375_1654181398133762_2110924991251103648_o.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;11406375_1654181398133762_2110924991251103648_o.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11411800_1654178664800702_4918223052729871645_o.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11411800_1654178664800702_4918223052729871645_o.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;11411800_1654178664800702_4918223052729871645_o.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11038104_1654178678134034_4070178993821767126_o.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11038104_1654178678134034_4070178993821767126_o.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;11038104_1654178678134034_4070178993821767126_o.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11055332_1654180778133824_5741517525676332099_o.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11055332_1654180778133824_5741517525676332099_o.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;11055332_1654180778133824_5741517525676332099_o.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11412097_1654180771467158_393499755171167739_o.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/11412097_1654180771467158_393499755171167739_o.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;11412097_1654180771467158_393499755171167739_o.jpg&quot;},{&quot;image&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/12819260_1732302726988295_5495327333886451699_o.jpg&quot;,&quot;thumb&quot;:&quot;http://users.neo.registeredsite.com/0/8/3/15306380/assets/12819260_1732302726988295_5495327333886451699_o.jpg&quot;,&quot;description&quot;:&quot;&quot;,&quot;title&quot;:&quot;12819260_1732302726988295_5495327333886451699_o.jpg&quot;}],&quot;thumbCrop&quot;:&quot;height&quot;,&quot;thumbFit&quot;:true,&quot;transitionSpeed&quot;:400,&quot;youtube&quot;:{&quot;color&quot;:&quot;white&quot;,&quot;modestbranding&quot;:1,&quot;rel&quot;:0,&quot;autohide&quot;:1,&quot;hd&quot;:1,&quot;showinfo&quot;:0},&quot;wait&quot;:5000,&quot;show&quot;:0,&quot;dataSort&quot;:false,&quot;autoplayEnabled&quot;:false,&quot;_toggleInfo&quot;:true,&quot;carousel&quot;:true,&quot;easing&quot;:&quot;galleria&quot;,&quot;trueFullscreen&quot;:true,&quot;overlayBackground&quot;:&quot;#0b0b0b&quot;,&quot;dailymotion&quot;:{&quot;highlight&quot;:&quot;%235BCEC5&quot;,&quot;background&quot;:&quot;%23222222&quot;,&quot;logo&quot;:0,&quot;hideInfos&quot;:1,&quot;foreground&quot;:&quot;%23EEEEEE&quot;},&quot;lightboxTransitionSpeed&quot;:200,&quot;lightbox&quot;:false,&quot;pauseOnInteraction&quot;:true,&quot;lightboxFadeSpeed&quot;:200,&quot;idleMode&quot;:true,&quot;imagePanSmoothness&quot;:12,&quot;debug&quot;:false,&quot;popupLinks&quot;:false,&quot;thumbDisplayOrder&quot;:true,&quot;transition&quot;:&quot;flash&quot;,&quot;autoplaySeconds&quot;:5,&quot;vimeo&quot;:{&quot;color&quot;:&quot;aaaaaa&quot;,&quot;title&quot;:0,&quot;portrait&quot;:0,&quot;byline&quot;:0},&quot;responsive&quot;:true,&quot;width&quot;:&quot;auto&quot;,&quot;thumbnails&quot;:true,&quot;queue&quot;:true,&quot;showImagenav&quot;:true}" data-region="content"> 
+      <div class="neo-asset-inner" style="opacity: 1; border-style: none; border-color: rgb(51, 51, 51); box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 0px 0px; background-image: none; background-color: transparent; background-position: 0% 0%; background-repeat: no-repeat;"> 
+       <div class="galleria" style="width: 855px;height:544px;"> 
+        <div class="galleria-container notouch" style="width: 855px; height: 544px;"> 
+         <div class="galleria-stage"> 
+          <div class="galleria-images" style="position: relative; top: 0px; left: 0px; width: 100%; height: 100%;"> 
+           <div class="galleria-image" style="overflow: hidden; position: absolute; top: 0px; left: 0px; transition: none; z-index: 0; opacity: 0;"> 
+            <div class="galleria-layer" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; z-index: 2;"></div> 
+           </div> 
+           <div class="galleria-image" style="overflow: hidden; position: absolute; width: 835px; height: 474px; opacity: 1; transition: none; z-index: 1; left: 0px; top: 0px;"> 
+            <div class="galleria-layer" style="position: absolute; right: 0px; bottom: 0px; z-index: 2; display: none; top: 0px; left: 260px; width: 316px; height: 474px;"></div> 
+            <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/13147827_1757418951143339_373294979534259071832.jpg" width="316" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 316px; height: 474px; position: absolute; top: 0px; left: 260px; opacity: 1;" height="474" alt="13147827_1757418951143339_373294979534259071832.jpg" /> 
+           </div> 
+          </div> 
+          <div class="galleria-loader" style="display: none; opacity: 0.4;"></div> 
+          <div class="galleria-counter" style="opacity: 0; transition: none;"> 
+           <span class="galleria-current">1</span> / 
+           <span class="galleria-total">38</span> 
+          </div> 
+          <div class="galleria-image-nav"> 
+           <div class="galleria-image-nav-right" style="right: -50px; transition: none;"></div> 
+           <div class="galleria-image-nav-left" style="left: -50px; transition: none;"></div> 
+          </div> 
+         </div> 
+         <div class="galleria-thumbnails-container galleria-carousel"> 
+          <div class="galleria-thumb-nav-left disabled"></div> 
+          <div class="galleria-thumbnails-list" style="overflow: hidden; position: relative;"> 
+           <div class="galleria-thumbnails" style="overflow: hidden; position: relative; width: 1975px; height: 40px;"> 
+            <div class="galleria-image active" style="overflow: hidden; position: relative; width: 27px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/13147827_1757418951143339_373294979534259071832.jpg" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 27px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 1;" width="27" height="40" alt="13147827_1757418951143339_373294979534259071832.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 60px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/10505250_1654124084806160_5527532723941783965_o.jpg" width="60" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 60px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" height="40" alt="10505250_1654124084806160_5527532723941783965_o.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 60px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/LQ0_7130.JPG" width="60" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 60px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" height="40" alt="LQ0_7130.JPG" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 47px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/145595.jpg" width="47" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 47px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" height="40" alt="145595.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 35px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/01_Siyan___Danni_raw_still_4928_x_5600.jpg" width="35" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 35px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" height="40" alt="01_Siyan___Danni_raw_still_4928_x_5600.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 53px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/image1-2.JPG" width="53" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 53px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" height="40" alt="image1-2.JPG" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 62px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/11850568_1671020863116482_6454683117910936410_o.jpg" width="62" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 62px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" height="40" alt="11850568_1671020863116482_6454683117910936410_o.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 60px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/906084_1654137284804840_6251830405955434214_o.jpg" width="60" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 60px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" height="40" alt="906084_1654137284804840_6251830405955434214_o.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 60px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/3.jpg" width="60" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 60px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" height="40" alt="3.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 60px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/11406126_1654137271471508_6325532510904716353_o.jpg" width="60" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 60px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" height="40" alt="11406126_1654137271471508_6325532510904716353_o.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 60px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/2.jpg" width="60" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 60px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" height="40" alt="2.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 53px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/198335.jpg" width="53" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 53px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" height="40" alt="198335.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 30px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/11217732_1654179734800595_19075298746709301003.jpg" width="30" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 30px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" height="40" alt="11217732_1654179734800595_19075298746709301003.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 40px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/11411899_1654180158133886_1492187634749267847_o.jpg" width="40" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 40px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" height="40" alt="11411899_1654180158133886_1492187634749267847_o.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 60px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/11420974_1655573304661238_8664217335045327199_o.jpg" width="60" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 60px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" height="40" alt="11420974_1655573304661238_8664217335045327199_o.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 60px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/1039806_1655573307994571_3883042229360975179_o.jpg" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 60px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" width="60" height="40" alt="1039806_1655573307994571_3883042229360975179_o.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 27px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/11111792_1655573384661230_3853499121077392898_o.jpg" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 27px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" width="27" height="40" alt="11111792_1655573384661230_3853499121077392898_o.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 60px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/1781298_1655573301327905_103651468805931993_o.jpg" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 60px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" width="60" height="40" alt="1781298_1655573301327905_103651468805931993_o.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 53px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/11220921_1655557697996132_5809793838551752774_n.jpg" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 53px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" width="53" height="40" alt="11220921_1655557697996132_5809793838551752774_n.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 53px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/10477324_1654180154800553_1759568469574673000_o.jpg" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 53px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" width="53" height="40" alt="10477324_1654180154800553_1759568469574673000_o.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 53px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/11659506_1657089921176243_8771464307153790713_n.jpg" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 53px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" width="53" height="40" alt="11659506_1657089921176243_8771464307153790713_n.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 53px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/17722_1657089907842911_6576319198360596730_n.jpg" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 53px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" width="53" height="40" alt="17722_1657089907842911_6576319198360596730_n.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 40px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/11692590_1657089961176239_1047745319745358900_n.jpg" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 40px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" width="40" height="40" alt="11692590_1657089961176239_1047745319745358900_n.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 20px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/1493444_1657087637843138_4348477944988530112_o.jpg" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 20px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" width="20" height="40" alt="1493444_1657087637843138_4348477944988530112_o.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 53px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/11666123_1657087594509809_3508499721832055334_n.jpg" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 53px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" width="53" height="40" alt="11666123_1657087594509809_3508499721832055334_n.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 30px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/11402767_1657087604509808_6866224778111327371_n.jpg" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 30px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" width="30" height="40" alt="11402767_1657087604509808_6866224778111327371_n.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 30px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/11427258_1654181358133766_1577462222789641652_o.jpg" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 30px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" width="30" height="40" alt="11427258_1654181358133766_1577462222789641652_o.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 30px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/10355481_1654181301467105_5169198639363808499_o.jpg" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 30px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" width="30" height="40" alt="10355481_1654181301467105_5169198639363808499_o.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 30px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/11402589_1655557731329462_3335982581008547777_o.jpg" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 30px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" width="30" height="40" alt="11402589_1655557731329462_3335982581008547777_o.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 30px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/10517221_1654180961467139_2182337768427736919_o.jpg" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 30px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" width="30" height="40" alt="10517221_1654180961467139_2182337768427736919_o.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 40px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/11053912_1654180931467142_5088426871583887515_o.jpg" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 40px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" width="40" height="40" alt="11053912_1654180931467142_5088426871583887515_o.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 40px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/11206514_1654180934800475_8877240624924718256_o.jpg" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 40px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" width="40" height="40" alt="11206514_1654180934800475_8877240624924718256_o.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 64px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/11406375_1654181398133762_2110924991251103648_o.jpg" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 64px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" width="64" height="40" alt="11406375_1654181398133762_2110924991251103648_o.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 40px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/11411800_1654178664800702_4918223052729871645_o.jpg" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 40px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" width="40" height="40" alt="11411800_1654178664800702_4918223052729871645_o.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 53px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/11038104_1654178678134034_4070178993821767126_o.jpg" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 53px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" width="53" height="40" alt="11038104_1654178678134034_4070178993821767126_o.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 53px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/11055332_1654180778133824_5741517525676332099_o.jpg" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 53px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" width="53" height="40" alt="11055332_1654180778133824_5741517525676332099_o.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 53px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/11412097_1654180771467158_393499755171167739_o.jpg" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 53px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" width="53" height="40" alt="11412097_1654180771467158_393499755171167739_o.jpg" /> 
+            </div> 
+            <div class="galleria-image" style="overflow: hidden; position: relative; width: 53px; height: 40px; visibility: visible;"> 
+             <img src="http://users.neo.registeredsite.com/0/8/3/15306380/assets/12819260_1732302726988295_5495327333886451699_o.jpg" style="display: block; min-width: 0px; min-height: 0px; max-width: none; max-height: none; width: 53px; height: 40px; position: absolute; left: 0px; top: 0px; opacity: 0.6;" width="53" height="40" alt="12819260_1732302726988295_5495327333886451699_o.jpg" /> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="galleria-thumb-nav-right"></div> 
+         </div> 
+         <div class="galleria-info"> 
+          <div class="galleria-info-text"> 
+           <div class="galleria-info-title">
+             13147827_1757418951143339_373294979534259071832.jpg 
+           </div> 
+           <div class="galleria-info-description" style="display: none;"></div> 
+          </div> 
+          <div class="galleria-info-link"></div> 
+          <div class="galleria-info-close"></div> 
+         </div> 
+         <div class="galleria-tooltip" style="opacity: 0;"></div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="global-region bottom" id="footer" style="display: block;"> 
+    <div class="global-region-inner" style="margin: 0px auto; position: relative; height: 215px; width: 962px;"> 
+     <div class="text-plugin neo-asset" id="asset-1462315038821" style="position: absolute; width: 611px; top: -0.328125px; left: 173.797px; height: auto; z-index: 388;" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;#333333&quot;,&quot;borderLeftColor&quot;:&quot;#333333&quot;,&quot;borderBottomColor&quot;:&quot;#333333&quot;,&quot;borderRightColor&quot;:&quot;#333333&quot;,&quot;borderAllColor&quot;:&quot;#333333&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;transparent&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" data-module-class="neo.TextModule" data-region="footer" aria-disabled="false"> 
+      <div class="neo-asset-inner mCS_destroyed" style="position: relative; opacity: 1; border-style: none; border-color: rgb(51, 51, 51); box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 0px 0px; background-image: none; background-color: transparent;" spellcheck="false" id="asset-1462315038821-neo-asset-inner"> 
+       <p><span style="color: #ffffff; font-family: 'Bookman Old Style', serif;"><span style="font-size: 18px;">Copyright &copy; 2019 Banyan Film LLC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-size: 18px;">All Rights Reser<span>ved</span></span></span></p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <div class="neo-asset image-plugin" style="position: absolute; top: 76px; left: 419px; width: 131.542px; height: 82px; z-index: 398;" id="asset-1551241465667" data-module-class="neo.ImageModule" data-settings="{&quot;css&quot;:{&quot;borderTopStyle&quot;:null,&quot;borderBottomStyle&quot;:null,&quot;borderLeftStyle&quot;:null,&quot;borderRightStyle&quot;:null,&quot;borderAllStyle&quot;:&quot;none&quot;,&quot;borderAllWidth&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderTopColor&quot;:null,&quot;borderLeftColor&quot;:null,&quot;borderBottomColor&quot;:null,&quot;borderRightColor&quot;:null,&quot;borderAllColor&quot;:&quot;#333333&quot;,&quot;borderAllRadius&quot;:null,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;paddingAll&quot;:null,&quot;paddingTop&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;0px 0px 0 0 rgba(0,0,0,0.5)&quot;},&quot;bgColor&quot;:&quot;rgba(255, 255, 255, 0)&quot;,&quot;backgroundOpacity&quot;:100,&quot;shadowColor&quot;:&quot;rgba(0,0,0,0.5)&quot;,&quot;backgroundShadowAngle&quot;:140,&quot;backgroundShadowOffset&quot;:0}" data-original-width="130" data-original-height="80"> 
+      <div class="neo-asset-inner" style="background-color: rgba(255, 255, 255, 0); opacity: 1; border-style: none; border-color: rgb(51, 51, 51); background-image: none; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 0px;"> 
+       <img src="assets/____________logo______.png" alt="" style="width: 130px; height: 80px;" /> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="bottom-area" style="height: 485px; width: 960px;" class=""></div> 
+ </div> 
+ <!--WSP_SC--> 
+ <script type="text/javascript">
+<!--
+document.write('<'+'img style="position:fixed;" src="//scorecard.wspisp.net/logger.php'+'?tag=dW5waWQ6MTUzMDYzODA7Mg%3D%3D&ref='+document.referrer+'&x='+Math.random()+'" '+'width="1" height="1" alt="" '+'>');
+//-->
+</script> 
+ <noscript>
+  <img style="position:fixed;" src="http://scorecard.wspisp.net/logger.php?tag=dW5waWQ6MTUzMDYzODA7Mg%3D%3D" width="1" height="1" alt="" />
+ </noscript> 
+ <!--/WSP_SC--> 
+</body>
+</html>
